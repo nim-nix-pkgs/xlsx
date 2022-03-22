@@ -9,13 +9,14 @@
   
   inputs.src-xlsx-v0_1_8.flake = false;
   inputs.src-xlsx-v0_1_8.owner = "xflywind";
-  inputs.src-xlsx-v0_1_8.ref   = "refs/tags/v0.1.8";
+  inputs.src-xlsx-v0_1_8.ref   = "v0_1_8";
   inputs.src-xlsx-v0_1_8.repo  = "xlsx";
   inputs.src-xlsx-v0_1_8.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";
   inputs."zip".ref   = "master";
   inputs."zip".repo  = "zip";
+  inputs."zip".dir   = "0_3_1";
   inputs."zip".type  = "github";
   inputs."zip".inputs.nixpkgs.follows = "nixpkgs";
   inputs."zip".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
